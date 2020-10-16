@@ -1,1 +1,1 @@
-# static
+# hst-bbs的静态资源
