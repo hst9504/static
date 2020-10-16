@@ -1,0 +1,140 @@
+#content{
+	background-color: #e2eaf0;
+    background-image: radial-gradient(at 37% center, #f9fbfd, #c6d2de);
+}
+.wrapper{
+    max-width: 1200px;
+    overflow: hidden;
+    padding: 0 10px;
+    margin: 140px auto;
+}
+.main-icon{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(../image/beijing.jpg);
+    background-size: 260px 260px;
+    height: 380px;
+	float: left;
+    width: 46%;
+}
+.main-icon.pending{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(../image/beijing.jpg);
+}
+.main-contentText {
+    padding-top: 107px;
+    float: left;
+    width: 54%;
+}
+.main-title{
+    margin-bottom: 10px;
+	line-height: 33px;
+    font-weight: 500;
+    font-size: 26px;
+	color: #252B3A;
+}
+.recommend-product {
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+.recommend-product-title {
+	line-height: 21px;
+    font-size: 14px;
+	color: #252B3A;
+    float: left;
+}
+.recommend-product-list {
+    overflow: hidden;
+    float: left;
+}
+.recommend-product-list > li {
+    margin-right: 20px;
+    float: left;
+}
+.hyperlink-em{
+    line-height: 21px;
+    font-size: 14px;
+    color: #1B79C8;
+}
+.hyperlink-em:hover{
+	text-decoration: underline;
+}
+.recommend-product-list a:after {
+    content: " >";
+}
+.poster-search-box {
+    position: relative;
+	border-radius: 2px;
+    background: #FFFFFF;
+    padding: 4px 7px 4px 9px;
+	border: 1px solid #DDDDDD;
+    height: 32px;
+    width: 300px;
+}
+
+.search-val {
+    display: inline-block;
+    vertical-align: middle;
+    background: transparent;
+    line-height: 22px;
+    font-size: 14px;
+    height: 100%;
+    border: none;
+    width: calc(100% - 28px);
+    color: #252b3a;
+}
+.search-click {
+    position: absolute;
+    top: 3px;
+    right: 4px;
+    width: 24px;
+    height: 24px;
+    border: none;
+    background: url("../image/beijing.jpg") center center no-repeat;
+    background-size: 18px 18px;
+    cursor: pointer;
+}
+
+.recommend-page {
+    margin-top: 10px;
+}
+.recommend-page-list {
+    overflow: hidden;
+}
+.recommend-page-list > li {
+    float: left;
+    margin-right: 20px;
+}
+.recommend-page-list a:after {
+    content: " >";
+}
+
+@media (max-width: 768px) {
+    .wrapper{
+        margin: 30px 0;
+    }
+	.poster-search-box,
+	.poster-tips,
+	.search-val{
+		cursor: pointer;
+	}
+    .main-icon {
+        float: none;
+        width: auto;
+        height: 190px;
+        background-size: 130px 130px;
+    }
+
+    .main-contentText {
+        float: none;
+        width: auto;
+        padding: 0 15px;
+    }
+
+    .main-title {
+        margin-bottom: 5px;
+        font-size: 24px;
+        line-height: 30px;
+    }
+}

@@ -1,0 +1,226 @@
+html{
+	padding:0;
+	margin:0;
+	background:url(../image/background-pic.jpg) no-repeat;
+	height:100%;
+	background-size:cover;
+
+}
+body {
+	padding:0;
+	margin:0;
+	font-family:Arial, "Microsoft Yahei";
+}
+
+.wrap {
+	width:330px;
+	border-radius:10px;
+	/*width: 250px;*/
+	overflow:hidden;
+	margin: 180px auto 0;
+	-webkit-animation: bounceIn 600ms linear;
+	-moz-animation: bounceIn 600ms linear;
+	-o-animation: bounceIn 600ms linear;
+	animation: bounceIn 600ms linear;
+}
+
+h1 a {
+	display: block;
+	height: 4.6rem;
+
+	margin:auto;
+	overflow: hidden;
+	color:#fff;
+
+    font-weight: normal;
+    text-align: center;
+    text-decoration: none;
+    line-height: 4.6rem;
+}
+
+.login ul,
+.login li{
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+.login ul{
+	background:#fff;
+	border:none;
+	box-shadow:1px 1px 1px #ccc inset;
+	border-radius:3px;
+	overflow:hidden;
+	margin-bottom:1rem;
+	width:248px;
+	overflow:hidden;
+}
+.login li{
+	border-top:1px solid #d3d4d4;
+	padding:.5rem;
+}
+.login .verifycode-wrapper{
+	padding:0px;
+}
+.login li img{
+	vertical-align:top;
+}
+.login .input {
+	width: 225px;
+	padding: .5rem;
+	vertical-align: middle;
+	border:0 none;
+	background:transparent;
+	font-size:18px;
+	font-family:Arial,"Microsoft Yahei";
+}
+.login .input:focus {
+	outline:0 none;
+}
+
+.username {
+    width:301px;
+    height:50px;
+    margin-left:13px;
+    margin-top:13px;
+    border-radius:10px;
+    border:1px #bfc0c1 solid;
+    font-size:15px;
+}
+.password {
+    width:301px;
+    height:50px;
+    margin-left:13px;
+    margin-top:13px;
+    border-radius:10px;
+    border:1px #bfc0c1 solid;
+}
+
+input {
+    border:none;
+    margin: inherit;
+    padding-left:8px;
+    font-size: 18px;
+    color:#bfc0c1;
+    outline: none;
+    background-color: transparent!important;
+}
+
+em {
+    display:inline-block;
+    width:33px;
+    height:32px;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.user_btn
+{
+    background:url(../image/user.png) no-repeat;
+	background-size: contain;
+}
+.pass_btn
+{
+    background:url(../image/password.png) no-repeat;
+	background-size: contain;
+}
+
+
+/*登录框动画*/
+@-webkit-keyframes bounceIn {
+	0% {
+		opacity: 0;
+		-webkit-transform: scale(.3);
+	}
+
+	50% {
+		opacity: 1;
+		-webkit-transform: scale(1.05);
+	}
+
+	70% {
+		-webkit-transform: scale(.9);
+	}
+
+	100% {
+		-webkit-transform: scale(1);
+	}
+}
+@-moz-keyframes bounceIn {
+	0% {
+		opacity: 0;
+		-moz-transform: scale(.3);
+	}
+
+	50% {
+		opacity: 1;
+		-moz-transform: scale(1.05);
+	}
+
+	70% {
+		-moz-transform: scale(.9);
+	}
+
+	100% {
+		-moz-transform: scale(1);
+	}
+}
+@-o-keyframes bounceIn {
+	0% {
+		opacity: 0;
+		-o-transform: scale(.3);
+	}
+
+	50% {
+		opacity: 1;
+		-o-transform: scale(1.05);
+	}
+
+	70% {
+		-o-transform: scale(.9);
+	}
+
+	100% {
+		-o-transform: scale(1);
+	}
+}
+@keyframes bounceIn {
+	0% {
+		opacity: 0;
+		transform: scale(.3);
+	}
+
+	50% {
+		opacity: 1;
+		transform: scale(1.05);
+	}
+
+	70% {
+		transform: scale(.9);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+.btn {
+	width: 304px;
+	height: 50px;
+	padding: 0;
+	margin-left: 10px;
+	vertical-align: middle;
+	background: #85c227;
+	overflow: visible;
+	color: #fff;
+	font-size: 20px;
+	cursor: pointer;
+	font-family: Arial, "Microsoft Yahei";
+	border: none;
+	border-radius: 10px;
+	margin-top:20px;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+}
+
+
+
+

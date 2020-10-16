@@ -1,0 +1,208 @@
+.top{
+    color: aqua;
+    text-align: center;
+}
+.top .login{
+    color:#c7000b;
+    cursor: pointer;
+}
+
+.top .register{
+    color:#c7000b;
+    cursor: pointer;
+}
+
+.header {
+    height: 50px;
+    width: 100%;
+    padding-right: 10px;
+    background: #fff;
+    margin-top: -20px;
+    margin-left: -10px;
+    margin-right: -10px;
+    position: relative;
+    border-bottom: solid 2px #8da6ce;
+}
+
+.header .symbol-logo{
+    background-image: url("../../image/logo.png");
+    height: 100%;
+    width: 100%;
+    display: block;
+    background-size: 100% ,100%;
+    max-width: 64px;
+    max-height: 45px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.header .symbol-logo a{
+    display: block;
+    height: 45px;
+}
+
+.header .wel {
+    display: none;
+}
+
+.header .user{
+    display: inline-block;
+    float: right;
+    margin-top: -35px;
+    font-size: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.header .logtoolbar{
+    display: inline-block;
+    float: right;
+    margin-top: -35px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.header .logtoolbar .login{
+    margin-right: 10px;
+    color: #c7000b;
+}
+
+.header .logtoolbar .register{
+    color: #ffffff;
+}
+
+.red {
+    background: rgba(255, 0, 0, 0.5);
+}
+
+.btnheader {
+    border: 1px solid rgba(255, 0, 0, 0.5);
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.container {
+    background: rgba(153,154,170,0.1);
+    margin: 0 -8px;
+}
+
+.username-index {
+    display: inline-block;
+    vertical-align: middle;
+    min-width: 20px;
+    max-width: 120px;
+    font-size: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #c7000b
+}
+
+.header .user-otherinfo {
+    display: none;
+    position: absolute;
+    top: calc(100% - 13px);
+    right: 0;
+    width: 240px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #fff;
+    -webkit-box-shadow: 0 4px 8px rgba(0,0,0,.1);
+    box-shadow: 0 4px 8px rgba(0,0,0,.1);
+    cursor: default
+}
+
+.header .user-otherinfo:hover {
+    display: block;
+}
+.user:hover +.user-otherinfo{
+    display: block;
+}
+
+.user-otherinfo .infotoolbar {
+    list-style: none;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.user-otherinfo .infotoolbar a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.header .user-otherinfo a:hover {
+color: #c7000b
+}
+
+.header .write-article-header-btn {
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 8px 10px;
+    text-align: center;
+    margin: -41px 200px 0 0;
+    border: 1px solid rgba(255, 0, 0, 0.5);
+    float: right;
+}
+
+.header .write-article-header-btn a{
+    text-decoration:none;
+    color:#c7000b
+}
+
+.article-content {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #dee0e8;
+    padding-left: 10px;
+}
+
+.article-content .article-title {
+    width: 70%;
+    font-size: 24px;
+    padding: 5px 0;
+}
+
+.article-content .article-title a:hover {
+    color: #c7000b;
+}
+
+.article-content .article-title a{
+    text-decoration: none;
+    color: #2F2F2F;
+    cursor: pointer;
+}
+
+.article-content .article-intro {
+    font-size: 14px;
+    width: 70%;
+    line-height: 20px;
+    color: #666A75;
+}
+
+.article_author {
+    margin-top: 10px;
+    color: #666A75;
+}
+
+.article_author .article_author_0{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px
+}
+
+#wzrl{
+    width: 200px;
+    height: 40px;
+    color: coral;
+    font-size: 25px;
+}
+
+#cf{
+    width: 200px;
+    height: 40px;
+    color: coral;
+    font-size: 25px;
+}

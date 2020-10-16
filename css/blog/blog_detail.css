@@ -1,0 +1,27 @@
+ .article-detail .article-detail-title {
+     font-weight: 600;
+     font-size: 24px;
+     color: #252B3A;
+     line-height: 30px;
+     margin-top: 30px;
+     margin-bottom: 20px;
+     vertical-align: bottom
+ }
+
+ .article-detail .article-detail-content {
+     margin-top: 60px;
+     margin-left: 10px;
+ }
+
+ .article-delete-btn {
+     float: right;
+     margin-right: 20px;
+     font-size: 14px;
+     color: rgb(17, 85, 204);
+     cursor: pointer;
+ }
+
+  .article-delete-btn:hover {
+      color: #c7000b;
+      text-decoration: underline #c7000b;
+ }

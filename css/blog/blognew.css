@@ -1,0 +1,28 @@
+.write-blog-title {
+    width: 80%;
+    height: 40px;
+    line-height: 40px;
+    border: #e2e2e2 1px solid;
+    padding-left: 10px;
+    outline: 0!important;
+    display: inline-block;
+}
+.write-blog-blog-title:focus {
+    border: #c7000b 1px solid
+}
+
+.submit-blog {
+    text-align: center;
+    margin: 32px auto;
+}
+
+.submit-blog .submit-blog-btn {
+    background: #c7000b;
+    width: 150px;
+    height: 46px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 6px;
+    border: 1px solid #ffffff;
+    padding: 8px 20px;
+}
